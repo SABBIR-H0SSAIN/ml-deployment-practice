@@ -1,0 +1,6 @@
+name: heart-disease-prediction-api
+services:
+  heart-api:
+    build: .
+    ports:
+      - "8000:8000"
